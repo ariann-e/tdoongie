@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Monologue';
+  src: url('../assets/fonts/Monologue.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DarkLarch';
+  src: url('../assets/fonts/DarkLarch.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-primary: #fe97a4;
+  --color-pink: #ff367d;
+  --color-red: #d2042d;
+  --color-blue: #2487b2;
+  --color-green: #48a56a;
+  --color-yellow: #ffcc5c;
+  --color-cream: #fffed3;
+
+  --color-ny: #81d4fa;
+  --color-jy: #aed581;
+  --color-mm: #ffcdd2;
+  --color-sn: #ffcdd2;
+  --color-jh: #ffcdd2;
+  --color-mn: #80cbc4;
+  --color-dh: #ffffff;
+  --color-cy: #ff1744;
+  --color-ty: #0277bd;
+
+  --font-between: 'Monologue';
+  --font-likey: 'DarkLarch';
+}

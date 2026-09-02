@@ -1,0 +1,116 @@
+.meet-twice-container {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.user {
+  margin: 40px 0 0;
+
+  font-family: var(--font-likey);
+  font-size: 62px;
+  color: var(--color-pink);
+  -webkit-text-stroke: 0.6px white;
+
+  transform: translateX(-80px);
+}
+
+
+.meet-twice-logo {
+  display: block;
+
+  width: 200px;
+  height: auto;
+
+  margin-top: -5px;
+}
+
+
+.members-preview {
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+.najeongmi {
+  align-self: flex-start;
+  margin-left: 0;
+
+  animation: rotate-right-left 2s ease-in-out infinite;
+}
+
+.jichaemo {
+  align-self: flex-end;
+  margin-right: 0;
+  margin-top: -50px;
+
+  animation: rotate-left-right 2s ease-in-out infinite;
+}
+
+.saidatzu {
+  align-self: flex-start;
+  margin-left: 0;
+  margin-top: -50px;
+
+  animation: rotate-right-left 2s ease-in-out infinite;
+}
+
+
+/* Right → Left */
+@keyframes rotate-right-left {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+
+/* Left → Right */
+@keyframes rotate-left-right {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+.take-quiz-button {
+    
+  margin-top: 30px;
+
+  padding: 0;
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.take-quiz-button img {
+    width: 120px;
+    height: auto;
+  display: block;
+}

@@ -1,0 +1,90 @@
+.result-page {
+  width: 100%;
+  height: 100%;
+}
+
+
+.result-overlay {
+  position: fixed;
+  inset: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow-y: auto;
+
+  padding: 20px 0;
+
+  box-sizing: border-box;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  z-index: 1000;
+}
+
+.result-card {
+  position: relative;
+
+  width: 360px;
+  height: 800px;
+
+  flex-shrink: 0;
+
+  background: var(--color-primary);
+
+  overflow: hidden;
+}
+
+
+.result-image-container {
+  width: 360px;
+  height: 800px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.result-member-image {
+  display: block;
+
+  width: 360px;
+  height: 800px;
+
+  object-fit: contain;
+}
+
+.result-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+
+  margin-top: 20px;
+
+  flex-shrink: 0;
+}
+
+
+.download-button,
+.restart-button {
+  padding: 0;
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.download-button img,
+.restart-button img {
+  display: block;
+}
